@@ -18,7 +18,7 @@ export default async function City({ params: { city } }: PropsType) {
   const data = await getData(city);
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center p-24">
       <h2 className="mb-3 text-2xl font-semibold">Hey {city}</h2>
       <pre>{JSON.stringify(data, null, 2)}</pre>
     </main>
