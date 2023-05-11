@@ -6,13 +6,13 @@ export default function Home() {
       <h2 className="mb-3 text-2xl font-semibold">Hey sky</h2>
       <ul className="list-disc">
         <li>
-          <Link href="/london">London</Link>
+          <Link href="/city/london">London</Link>
         </li>
         <li>
-          <Link href="/rome">Rome</Link>
+          <Link href="/city/rome">Rome</Link>
         </li>
         <li>
-          <Link href="/piatra-neamt">Piatra</Link>
+          <Link href="/city/piatra-neamt">Piatra</Link>
         </li>
       </ul>
     </main>
